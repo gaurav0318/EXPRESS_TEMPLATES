@@ -1,0 +1,22 @@
+html
+	head
+		title= name
+	body
+		//comment
+		h1 Greetings from #{name}
+		br
+		a(href= url) URL
+		br
+		br
+		div abcd
+		br
+		div
+			| To insert multiline text,
+			| You can use the pipe operator.
+		br
+		div.
+			But this gets tedious if you have lots of text.
+			You can use "." at the end of tag to denote 
+			block of text. To put tags inside this 
+			block, simply enter tag in a new 
+			line and indent it accordingly.
